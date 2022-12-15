@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of California ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of New Hampshire ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Arizona ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining Only 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Arkansas ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Colorado ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Connecticut ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Florida ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Georgia ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Illinois ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Louisiana ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Massachusetts ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Michigan ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+    <line>
+      <![CDATA[ Field of FAx Number check Box Of Minnesota ]]>
+    </line>
+    <line>
+      <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-15T09:45:04 IST" name="Default suite" finished-at="2022-12-15T09:48:32 IST" duration-ms="208031">
+    <groups>
+    </groups>
+    <test started-at="2022-12-15T09:45:04 IST" name="Default test" finished-at="2022-12-15T09:48:32 IST" duration-ms="208031">
+      <class name="Test_Fax_NumberCountrywithArea.UnitedState001">
+        <test-method is-config="true" signature="browseropen()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:45:04 IST" name="browseropen" finished-at="2022-12-15T09:45:18 IST" duration-ms="14497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseropen -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:45:18 IST" name="fn1" finished-at="2022-12-15T09:45:19 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberCalifornia()[pri:1, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:45:19 IST" name="FAXnumberCalifornia" finished-at="2022-12-15T09:45:29 IST" duration-ms="10332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of California ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberCalifornia -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:45:29 IST" name="Teardown" finished-at="2022-12-15T09:45:32 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:45:32 IST" name="fn1" finished-at="2022-12-15T09:45:33 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberNewHampshire()[pri:1, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:45:33 IST" name="FAXnumberNewHampshire" finished-at="2022-12-15T09:45:47 IST" duration-ms="14305" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of New Hampshire ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberNewHampshire -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:45:47 IST" name="Teardown" finished-at="2022-12-15T09:45:50 IST" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:45:50 IST" name="fn1" finished-at="2022-12-15T09:45:51 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberArizona()[pri:2, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:45:51 IST" name="FAXnumberArizona" finished-at="2022-12-15T09:46:00 IST" duration-ms="9252" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at Test_Fax_NumberCountrywithArea.UnitedState001.FAXnumberArizona(UnitedState001.java:138)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Arizona ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining Only 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberArizona -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:00 IST" name="Teardown" finished-at="2022-12-15T09:46:03 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:03 IST" name="fn1" finished-at="2022-12-15T09:46:03 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberArkansas()[pri:3, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:03 IST" name="FAXnumberArkansas" finished-at="2022-12-15T09:46:15 IST" duration-ms="11238" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Arkansas ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberArkansas -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:15 IST" name="Teardown" finished-at="2022-12-15T09:46:18 IST" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:18 IST" name="fn1" finished-at="2022-12-15T09:46:18 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberColorado()[pri:4, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:18 IST" name="FAXnumberColorado" finished-at="2022-12-15T09:46:29 IST" duration-ms="11226" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Colorado ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberColorado -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:29 IST" name="Teardown" finished-at="2022-12-15T09:46:32 IST" duration-ms="3026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:32 IST" name="fn1" finished-at="2022-12-15T09:46:33 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberConnecticut()[pri:5, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:33 IST" name="FAXnumberConnecticut" finished-at="2022-12-15T09:46:44 IST" duration-ms="11211" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Connecticut ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberConnecticut -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:44 IST" name="Teardown" finished-at="2022-12-15T09:46:47 IST" duration-ms="3026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:47 IST" name="fn1" finished-at="2022-12-15T09:46:48 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberFlorida()[pri:6, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:48 IST" name="FAXnumberFlorida" finished-at="2022-12-15T09:46:59 IST" duration-ms="11217" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Florida ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberFlorida -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:46:59 IST" name="Teardown" finished-at="2022-12-15T09:47:02 IST" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:02 IST" name="fn1" finished-at="2022-12-15T09:47:02 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberGeorgia()[pri:7, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:02 IST" name="FAXnumberGeorgia" finished-at="2022-12-15T09:47:14 IST" duration-ms="11245" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Georgia ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberGeorgia -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:14 IST" name="Teardown" finished-at="2022-12-15T09:47:17 IST" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:17 IST" name="fn1" finished-at="2022-12-15T09:47:17 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberIllinois()[pri:8, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:17 IST" name="FAXnumberIllinois" finished-at="2022-12-15T09:47:29 IST" duration-ms="11280" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Illinois ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberIllinois -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:29 IST" name="Teardown" finished-at="2022-12-15T09:47:32 IST" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:32 IST" name="fn1" finished-at="2022-12-15T09:47:32 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberLouisiana()[pri:9, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:32 IST" name="FAXnumberLouisiana" finished-at="2022-12-15T09:47:43 IST" duration-ms="11246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Louisiana ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberLouisiana -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:43 IST" name="Teardown" finished-at="2022-12-15T09:47:46 IST" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:46 IST" name="fn1" finished-at="2022-12-15T09:47:47 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberMassachusetts()[pri:10, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:47 IST" name="FAXnumberMassachusetts" finished-at="2022-12-15T09:47:58 IST" duration-ms="11333" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Massachusetts ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberMassachusetts -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:47:58 IST" name="Teardown" finished-at="2022-12-15T09:48:01 IST" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:48:01 IST" name="fn1" finished-at="2022-12-15T09:48:02 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberMichigan()[pri:11, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:48:02 IST" name="FAXnumberMichigan" finished-at="2022-12-15T09:48:13 IST" duration-ms="11237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Michigan ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberMichigan -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:48:13 IST" name="Teardown" finished-at="2022-12-15T09:48:16 IST" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="fn1()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:48:16 IST" name="fn1" finished-at="2022-12-15T09:48:17 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn1 -->
+        <test-method signature="FAXnumberMinnesota()[pri:12, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:48:17 IST" name="FAXnumberMinnesota" finished-at="2022-12-15T09:48:28 IST" duration-ms="11254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Field of FAx Number check Box Of Minnesota ]]>
+            </line>
+            <line>
+              <![CDATA[checkBox is cotaining More Than 1 field of FAx Number ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FAXnumberMinnesota -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:48:28 IST" name="Teardown" finished-at="2022-12-15T09:48:31 IST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test_Fax_NumberCountrywithArea.UnitedState001@6e950bcf]" started-at="2022-12-15T09:48:31 IST" name="teardown" finished-at="2022-12-15T09:48:32 IST" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test_Fax_NumberCountrywithArea.UnitedState001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
