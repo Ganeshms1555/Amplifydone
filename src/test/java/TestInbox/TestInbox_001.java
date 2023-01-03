@@ -42,7 +42,7 @@ LoginPage loginpage;
 	}
 	@Test
 	public void test() throws InterruptedException, IOException {
-		System.out.println(" Test Contact Number ");
+		System.out.println(" Test Inbox ");
 		Thread.sleep(500);
 	
 		Thread.sleep(500);

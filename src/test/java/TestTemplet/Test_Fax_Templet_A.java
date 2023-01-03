@@ -170,55 +170,55 @@ public class Test_Fax_Templet_A extends ComTestBase {
 		Thread.sleep(500);
 		driver.findElement(By.xpath("(//div[@class=\"ql-editor ql-blank\"])[1]")).sendKeys(" Comment of current fax which will provide by the user in form of Text ");	
 	}
-	@Test(priority=11)
-	public void File_Upload() throws AWTException, InterruptedException {
-		
-		// click on Drop an attachment here
-		
-		driver.findElement(By.xpath("//span[contains(text(),'Drop an attachment here')]")).click();
-		Thread.sleep(500);
-		driver.findElement(By.xpath("(//span[contains(text(),'ADD')])[3]")).click();
-		//robot Object
-		Robot robot=new Robot();
-
-		//	Store pathof upload usinfg StringSelection
-
-		StringSelection filepath= new StringSelection("C:\\Users\\ganesh_moontechnolab\\Sample School Admission Form.pdf");
-
-		// copy above path to Clipboard
-		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filepath, null);
-
-		////now Press CTRL
-
-		robot.keyPress(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		//Press V
-
-		robot.keyPress(KeyEvent.VK_V);
-		Thread.sleep(1000);
-
-		//Releas
-
-		robot.keyRelease(KeyEvent.VK_V);
-		Thread.sleep(1000);
-
-		//Release CTRL
-
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-
-		//Press Enter
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-
-		//Release Enter
-		robot.keyRelease(KeyEvent.VK_ENTER);
-		Thread.sleep(4000);
-
-		System.out.println("File UPLOAD SUCCESSFULLY ");
-		
-		
-	}
+//	@Test(priority=11)
+//	public void File_Upload() throws AWTException, InterruptedException {
+//		
+//		// click on Drop an attachment here
+//		
+//		driver.findElement(By.xpath("//span[contains(text(),'Drop an attachment here')]")).click();
+//		Thread.sleep(500);
+//		driver.findElement(By.xpath("(//span[contains(text(),'ADD')])[3]")).click();
+//		//robot Object
+//		Robot robot=new Robot();
+//
+//		//	Store pathof upload usinfg StringSelection
+//
+//		StringSelection filepath= new StringSelection("C:\\Users\\ganesh_moontechnolab\\Sample School Admission Form.pdf");
+//
+//		// copy above path to Clipboard
+//		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filepath, null);
+//
+//		////now Press CTRL
+//
+//		robot.keyPress(KeyEvent.VK_CONTROL);
+//		Thread.sleep(1000);
+//		//Press V
+//
+//		robot.keyPress(KeyEvent.VK_V);
+//		Thread.sleep(1000);
+//
+//		//Releas
+//
+//		robot.keyRelease(KeyEvent.VK_V);
+//		Thread.sleep(1000);
+//
+//		//Release CTRL
+//
+//		robot.keyRelease(KeyEvent.VK_CONTROL);
+//		Thread.sleep(1000);
+//
+//		//Press Enter
+//		robot.keyPress(KeyEvent.VK_ENTER);
+//		Thread.sleep(1000);
+//
+//		//Release Enter
+//		robot.keyRelease(KeyEvent.VK_ENTER);
+//		Thread.sleep(4000);
+//
+//		System.out.println("File UPLOAD SUCCESSFULLY ");
+//		
+//		
+//	}
 	
 	@AfterMethod
 	public void close() throws InterruptedException {

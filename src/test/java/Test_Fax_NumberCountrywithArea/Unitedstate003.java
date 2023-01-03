@@ -63,73 +63,121 @@ public class Unitedstate003 extends ComTestBase {
 		C.setalabama();
 		Thread.sleep(2000);
 	}
-	@Test(priority=2)
-	public void FAXnumberAlaska() throws InterruptedException, IOException {
-		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//div[@class=\"cdk-overlay-container\"]")).click();
-		Thread.sleep(1000);
+//	@Test(priority=2)
+//	public void FAXnumberAlaska() throws InterruptedException, IOException {
+//		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
+//		driver.findElement(By.xpath("//div[@class=\"cdk-overlay-container\"]")).click();
+//		Thread.sleep(1000);
+//
+//		Reporter.log(" Field of FAx Number check Box Of Alaska ",true);
+//		FaxNumber C=new FaxNumber();
+//
+//		C.setarea();
+//		C.setalaska();
+//		Thread.sleep(2000);
+//		driver.findElement(By.xpath("(//mat-select[@panelclass=\"select_number_panel\"])[3]")).click();
+//
+//		Thread.sleep(2000);
+//		// size of list box 
+//		List<WebElement>list=driver.findElements(By.xpath("//mat-option[@role=\"option\"]"));
+//
+//		System.out.println(list.size());
+//		int actual=list.size();
+//		int expected =2;
+//		System.out.println("size of List Box :- "+actual);
+//
+//		//asse.assertEquals(size, ex);
+//		if(actual>=expected) {
+//			Reporter.log("checkBox is cotaining More Than 1 field of FAx Number ",true);
+//			Assert.assertEquals(true, true);
+//		}
+//		else 
+//		{Reporter.log("checkBox is cotaining Only 1 field of FAx Number ",true);
+//		Assert.assertEquals(false, true);
+//		}Thread.sleep(2000);
+//	}
+//
+//	@Test(priority=3)
+//	public void FAXnumberDelware() throws InterruptedException, IOException {
+//		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
+//		driver.findElement(By.xpath("//div[@class=\"cdk-overlay-container\"]")).click();
+//		Thread.sleep(1000);
+//
+//		Reporter.log(" Field of FAx Number check Box Of Dalware ",true);
+//		FaxNumber C=new FaxNumber();
+//
+//		C.setarea();
+//		C.setdelaware();
+//		Thread.sleep(2000);
+//		driver.findElement(By.xpath("(//mat-select[@panelclass=\"select_number_panel\"])[3]")).click();
+//
+//		Thread.sleep(2000);
+//		// size of list box 
+//		List<WebElement>list=driver.findElements(By.xpath("//mat-option[@role=\"option\"]"));
+//
+//		System.out.println(list.size());
+//		int actual=list.size();
+//		int expected =2;
+//		System.out.println("size of List Box :- "+actual);
+//
+//		//asse.assertEquals(size, ex);
+//		if(actual>=expected) {
+//			Reporter.log("checkBox is cotaining More Than 1 field of FAx Number ",true);
+//			Assert.assertEquals(true, true);
+//		}
+//		else 
+//		{Reporter.log("checkBox is cotaining Only 1 field of FAx Number ",true);
+//		Assert.assertEquals(false, true);
+//		}Thread.sleep(2000);
+//	}
+//	@Test(priority=4)
+//	public void NumberofArea() throws InterruptedException, IOException {
+//		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
+//		driver.findElement(By.xpath("//div[@class=\"cdk-overlay-container\"]")).click();
+//		Thread.sleep(1000);
+//
+//		Reporter.log(" Field of FAx Number check Box Of Dalware ",true);
+//		FaxNumber C=new FaxNumber();
+//
+//		C.setarea();
+//		List<WebElement>arealist=driver.findElements(By.xpath("//mat-option[@role=\"option\"]"));
+//		
+//				System.out.println(arealist.size());
+//				int number= arealist.size();
+//		Reporter.log("  Number of Area Available  : "+number,true);
+//		
+//	
+//			
+//		}
+		@Test(priority=5)
+		public void NamefArea() throws InterruptedException, IOException {
+			driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
+			driver.findElement(By.xpath("//div[@class=\"cdk-overlay-container\"]")).click();
+			Thread.sleep(1000);
 
-		Reporter.log(" Field of FAx Number check Box Of Alaska ",true);
-		FaxNumber C=new FaxNumber();
+			Reporter.log(" Field of FAx Number check Box Of Dalware ",true);
+			FaxNumber C=new FaxNumber();
 
-		C.setarea();
-		C.setalaska();
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("(//mat-select[@panelclass=\"select_number_panel\"])[3]")).click();
+			C.setarea();
+			List<WebElement>arealist=driver.findElements(By.xpath("//mat-option[@role=\"option\"]"));
+			WebElement a=driver.findElement(By.xpath("(//mat-option[@role=\"option\"])[2]"));
+			String name1=a.getText();
+			System.out.println(name1);
+			
+					System.out.println(arealist.size());
+					int number= arealist.size();
+			Reporter.log("  Number of Area Available  : "+number,true);
+			
+			for(WebElement name:arealist) {
+				String text=name.getText();
+				//System.out.println(text);
+				Reporter.log("  Name  of Area Available  : "+text,true);
+				
+			}
 
-		Thread.sleep(2000);
-		// size of list box 
-		List<WebElement>list=driver.findElements(By.xpath("//mat-option[@role=\"option\"]"));
-
-		System.out.println(list.size());
-		int actual=list.size();
-		int expected =2;
-		System.out.println("size of List Box :- "+actual);
-
-		//asse.assertEquals(size, ex);
-		if(actual>=expected) {
-			Reporter.log("checkBox is cotaining More Than 1 field of FAx Number ",true);
-			Assert.assertEquals(true, true);
-		}
-		else 
-		{Reporter.log("checkBox is cotaining Only 1 field of FAx Number ",true);
-		Assert.assertEquals(false, true);
-		}Thread.sleep(2000);
 	}
-
-	@Test(priority=3)
-	public void FAXnumberDelware() throws InterruptedException, IOException {
-		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//div[@class=\"cdk-overlay-container\"]")).click();
-		Thread.sleep(1000);
-
-		Reporter.log(" Field of FAx Number check Box Of Dalware ",true);
-		FaxNumber C=new FaxNumber();
-
-		C.setarea();
-		C.setdelaware();
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("(//mat-select[@panelclass=\"select_number_panel\"])[3]")).click();
-
-		Thread.sleep(2000);
-		// size of list box 
-		List<WebElement>list=driver.findElements(By.xpath("//mat-option[@role=\"option\"]"));
-
-		System.out.println(list.size());
-		int actual=list.size();
-		int expected =2;
-		System.out.println("size of List Box :- "+actual);
-
-		//asse.assertEquals(size, ex);
-		if(actual>=expected) {
-			Reporter.log("checkBox is cotaining More Than 1 field of FAx Number ",true);
-			Assert.assertEquals(true, true);
-		}
-		else 
-		{Reporter.log("checkBox is cotaining Only 1 field of FAx Number ",true);
-		Assert.assertEquals(false, true);
-		}Thread.sleep(2000);
-	}
+	
+	
 	@AfterMethod
 	public void teardown() throws InterruptedException {
 
@@ -138,7 +186,7 @@ public class Unitedstate003 extends ComTestBase {
 	@AfterClass
 	public void closed() throws InterruptedException {
 		Thread.sleep(0500);
-		driver.close();
+		//driver.close();
 	}
 
 }

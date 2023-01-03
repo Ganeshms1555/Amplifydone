@@ -9,6 +9,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -38,16 +40,10 @@ public class Test_Verify_Modole extends ComTestBase {
 	public static Logger log = LogManager.getLogger(ComTestBase.class.getName());
 	@SuppressWarnings("deprecation")
 	@BeforeClass
-	public void extent() {
+	public void extent() throws IOException, InterruptedException {
 		htmlReporter = new ExtentHtmlReporter("extent.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		
-	}
-	@BeforeMethod
-	public void browseropen() throws IOException, InterruptedException {
-		
-		
 		
 		initialization(); 
 		log.info("Driver is initialized");
@@ -61,6 +57,10 @@ public class Test_Verify_Modole extends ComTestBase {
 		
 		
 		
+	}
+	@BeforeMethod
+	public void browseropen() throws IOException, InterruptedException {
+		Thread.sleep(500);
 
 	}
 
@@ -77,10 +77,7 @@ public class Test_Verify_Modole extends ComTestBase {
 		// 
 		test.pass(" Test Case Pass  Click on dashboard ");
 		Thread.sleep(2000);
-		//		Thread.sleep(1000);
-		//		//
-		//		driver.findElement(By.xpath("/html/body/app-root/app-dashboard/app-header-sidebar/mat-sidenav-container/mat-sidenav/div/div[2]/div/div[1]/a")).click();
-		//		Thread.sleep(5000);
+		
 	}
 	@Test(priority=2)
 	public void homemode_2 () throws IOException, InterruptedException {
@@ -135,7 +132,9 @@ public class Test_Verify_Modole extends ComTestBase {
 		
 		homepage.dashboardteam();
 		test.pass(" Test Case Pass  Click on Dashboard Team ");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//app-setting/div/mat-toolbar/div[2]/button")).click();
+		Thread.sleep(1000);
 		//driver.findElement(By.xpath("(//button[@type=\"button\"])[6]")).click();
 
 	}
@@ -150,7 +149,9 @@ public class Test_Verify_Modole extends ComTestBase {
 		
 		homepage.dashboardfaxnumbers();
 		test.pass(" Test Case Pass  Click on Dashboard Faxnumbers ");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//app-setting/div/mat-toolbar/div[2]/button")).click();
+		Thread.sleep(1000);
 	}
 	@Test(priority=7)
 	public void homemodel_7 () throws IOException, InterruptedException {
@@ -178,19 +179,19 @@ public class Test_Verify_Modole extends ComTestBase {
 		test.pass(" Test Case Pass  Click on Dashboard Reports ");
 		Thread.sleep(2000);
 	}
-	@Test(priority=9)
-	public void homemodel_9 () throws IOException, InterruptedException {
-		
-		ExtentTest test = extent.createTest("Login Test with Dashboard Email to fax Click");
-		
-		Thread.sleep(500);
-		homepage =new HomePage();
-		test.log(Status.INFO, "URL is Open on Chrome Bowser  ");
-		
-		homepage.dashboardemailtofax();
-		test.pass(" Test Case Pass  Click on Dashboard Email to fax ");
-		Thread.sleep(2000);
-	}
+//	@Test(priority=9)
+//	public void homemodel_9 () throws IOException, InterruptedException {
+//		
+//		ExtentTest test = extent.createTest("Login Test with Dashboard Email to fax Click");
+//		
+//		Thread.sleep(500);
+//		homepage =new HomePage();
+//		test.log(Status.INFO, "URL is Open on Chrome Bowser  ");
+//		
+//		homepage.dashboardemailtofax();
+//		test.pass(" Test Case Pass  Click on Dashboard Email to fax ");
+//		Thread.sleep(2000);
+//	}
 	@Test(priority=10)
 	public void homemodel_10 () throws IOException, InterruptedException {
 		
@@ -203,6 +204,13 @@ public class Test_Verify_Modole extends ComTestBase {
 		homepage.dashboardbroadcast();
 		test.pass(" Test Case Pass  Click on Dashboard Broad Cast ");
 		Thread.sleep(2000);
+		@SuppressWarnings("deprecation")
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@aria-label=\"Close\"]")));
+		
+		driver.findElement(By.xpath("//button[@aria-label=\"Close\"]")).click();
+		Thread.sleep(1000);
 	}
 	@Test(priority=11)
 	public void homemodel_11 () throws IOException, InterruptedException {
@@ -215,6 +223,12 @@ public class Test_Verify_Modole extends ComTestBase {
 		test.pass(" Test Case Pass  Click on Dashboard Integrations ");
 		homepage.dashboardintegrations();
 		Thread.sleep(2000);
+//		WebElement close;
+//		close= wait.u
+//		close=driver.findElement(By.xpath("//button[@aria-label=\"Close\"]"));
+		
+		// explicit wait - to wait for the compose button to be click-able
+	
 	}
 	@Test(priority=12)
 	public void homemodel_12 () throws IOException, InterruptedException {
@@ -227,7 +241,9 @@ public class Test_Verify_Modole extends ComTestBase {
 		
 		homepage.dashboardpricing();
 		test.pass(" Test Case Pass  Click on Dashboard Pricing ");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//app-setting/div/mat-toolbar/div[2]/button")).click();
+		Thread.sleep(1000);
 	}
 	@Test(priority=13)
 	public void homemodel_13 () throws IOException, InterruptedException {
@@ -240,7 +256,9 @@ public class Test_Verify_Modole extends ComTestBase {
 		
 		homepage.dashboardsupport();
 		test.pass(" Test Case Pass  Click on Dashboard Support ");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//app-contact-support/div/button")).click();
+		Thread.sleep(1000);
 	} 
 	@Test(priority=14)
 	public void homemodel_14 () throws IOException, InterruptedException {
@@ -256,6 +274,8 @@ public class Test_Verify_Modole extends ComTestBase {
 		homepage.dashboardprofessional();
 		test.pass(" Test Case Pass  Click on Dashboard Professional ");
 		Thread.sleep(2000);
+		driver.findElement(By.xpath("//app-setting/div/mat-toolbar/div[2]/button")).click();
+		Thread.sleep(1000);
 	}
 	@Test(priority=15)
 	public void homemodel_15 () throws IOException, InterruptedException {
@@ -267,7 +287,7 @@ public class Test_Verify_Modole extends ComTestBase {
 		test.log(Status.INFO, "URL is Open on Chrome Bowser  ");
 		
 		Thread.sleep(500);
-		driver.findElement(By.xpath("/html/body/app-root/div[2]/a[2]/span/mat-icon")).click();
+	//	driver.findElement(By.xpath("/html/body/app-root/div[2]/a[2]/span/mat-icon")).click();
 		WebElement a1=driver.findElement(By.xpath("/html/body/app-root/app-dashboard/app-header-sidebar/mat-sidenav-container/mat-sidenav/div/div[4]/mat-nav-list/div/a"));
 		boolean enab=a1.isEnabled();
 		Actions Act=new Actions(driver);
@@ -283,15 +303,17 @@ public class Test_Verify_Modole extends ComTestBase {
 
 	public void TearDown() throws InterruptedException {
 		Thread.sleep(500);
-		driver.quit();
 		//		driver.findElement(By.xpath("//div[@class=\"avatar_img\"]")).click();
 		//		Thread.sleep(500);
 		//		driver.findElement(By.xpath("//a[contains(text(),'SIGN OUT')]")).click();
 		//		Thread.sleep(500);
-		//		
+			
 	}
 	@AfterClass
-	public void closed () {
+	public void closed () throws InterruptedException {
+		
+		Thread.sleep(500);
+		driver.quit();
 		
 
 		extent.flush();

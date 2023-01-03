@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="TestTemplet.Listners" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestIntegrationAndAPI.TestIntegration"/>
+      <class name="TestCasesHome.Test_Verify_Modole"/>
+      <class name="TestEmailtoFax.TestEmail_001"/>
+      <class name="TestContact.TestContact_001"/>
+      <class name="TestTeam.TestTeam_001"/>
+      <class name="TestTemplet.FAX_send_Update"/>
+      <class name="TestPricing.TestPricing_001"/>
+      <class name="TestTemplet.HomePageTest"/>
+      <class name="TestTemplet.DashBoardTest"/>
+      <class name="TestTemplet.SelectPlan"/>
+      <class name="TestTemplet.Test_Fax_Templet_D"/>
+      <class name="TestDone.TestDone_001"/>
+      <class name="TestUpgrade.TestUpgrade_001"/>
+      <class name="TestTemplet.LoginPageTest"/>
+      <class name="TestSetting.TestSetting_001"/>
+      <class name="TestTemplet.Test_Fax_Templet_A"/>
+      <class name="TestReports.TestReport_001"/>
+      <class name="TestTemplet.Test_Fax_Templet_B"/>
+      <class name="TestTemplet.Test_Fax_Templet_C"/>
+      <class name="TestFolder.TestFolder_001"/>
+      <class name="TestTemplet.PurchaseNumber"/>
+      <class name="Test_Fax_NumberCountrywithArea.UnitedState002"/>
+      <class name="Test_Fax_NumberCountrywithArea.UnitedState001"/>
+      <class name="TestInbox.TestInbox_001"/>
+      <class name="Test_Fax_NumberCountrywithArea.Unitedstate003"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
