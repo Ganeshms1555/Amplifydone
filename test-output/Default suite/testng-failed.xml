@@ -3,15 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_Fax_NumberCountrywithArea.UnitedState001">
+      <class name="TestPricing.TestPricing_001">
         <methods>
-          <include name="Teardown"/>
-          <include name="FAXnumberArizona"/>
-          <include name="teardown"/>
-          <include name="fn1"/>
-          <include name="browseropen"/>
+          <include name="setup"/>
+          <include name="browserclosed"/>
+          <include name="editenumber"/>
+          <include name="editepass"/>
+          <include name="test1"/>
+          <include name="login"/>
+          <include name="TearDown"/>
+          <include name="editeemail"/>
+          <include name="twostepverification"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- Test_Fax_NumberCountrywithArea.UnitedState001 -->
+      </class> <!-- TestPricing.TestPricing_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

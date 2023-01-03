@@ -70,7 +70,9 @@ public class FAX_send_Update extends ComTestBase {
 		Thread.sleep(1000);
 		
 		
-       driver.findElement(By.xpath("//div[@class='main_card_new_fax newfaxd6 ng-star-inserted']//input[@formcontrolname='Fax_Number']")).sendKeys("1 (205) 255-5021");
+		driver.findElement(By.xpath("/html/body/div[6]/div[2]/div/mat-bottom-sheet-container/app-new-fax/div/div/div[2]/form/ngu-carousel/div/div[1]/div/div[6]/div/div/mat-card/div[3]/div[1]/mat-form-field/div/div[1]/div/input")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//span[contains(text(),'Team iFax')]")).click();
 		
 		Thread.sleep(1000);
 		
@@ -95,7 +97,7 @@ public class FAX_send_Update extends ComTestBase {
 			//robot Object
 			Robot robot=new Robot();
 			
-		//	Store pathof upload usinfg StringSelection
+		//	Store path of upload using StringSelection
 			
 			StringSelection filepath= new StringSelection("C:\\Users\\ganesh_moontechnolab\\Form.pdf");
 			

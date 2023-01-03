@@ -42,6 +42,7 @@ public static void initialization() {
 		option.addArguments("--disable-notifications");
 		
 	    System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
+	    
 		
 	     driver = new ChromeDriver(option);
 	     

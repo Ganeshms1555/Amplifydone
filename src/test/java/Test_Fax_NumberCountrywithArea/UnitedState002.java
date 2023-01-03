@@ -390,7 +390,7 @@ public class UnitedState002 extends ComTestBase{
 	@AfterClass
 	public void ac() throws InterruptedException {
 		Thread.sleep(2000);
-		//driver.close();
+		driver.quit();
 
 	}
 
